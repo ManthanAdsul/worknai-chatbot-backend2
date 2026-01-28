@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual env & secrets
+venv/
+.env
+
+# Local data & vector store
+data/
+vector_store/
+chroma.sqlite3
+
+# Frontend (deployed separately)
+worknai-chatbot-Frontend/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
