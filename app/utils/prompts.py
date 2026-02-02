@@ -85,4 +85,10 @@ WorknAI की आधिकारिक जानकारी:
 {question}
 
 एक संक्षिप्त और पेशेवर उत्तर दें:
+
 """
+def get_prompt_template(language: str = "en") -> str:
+    """Get the appropriate prompt template based on language."""
+    if language.lower() == "hi":
+        return SYSTEM_PROMPT_HINDI
+    return SYSTEM_PROMPT_ENGLISH
